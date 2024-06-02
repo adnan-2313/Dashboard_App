@@ -1,8 +1,11 @@
-# React + Vite
+React Dashboard App
+This React application visualizes alert data using Chart.js, presenting it in a responsive line chart. The app processes and displays data from a JSON file (eve.json).
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+Responsive Design: The chart adjusts to different screen sizes for optimal viewing.
+Data Visualization: Visualizes alert data by timestamp and category using a line chart.
+Dynamic Coloring: Each category is assigned a random color for distinction.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Tech Stack
+React
+Tailwind CSS
